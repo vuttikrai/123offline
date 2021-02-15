@@ -7,7 +7,7 @@ metadata:
 spec:
   containers:
   - name: 123-useragentoffline-testing-ppt-automation
-    image: 123-useragentoffline-testing-ppt-automation
+    image: 891349355538.dkr.ecr.ap-southeast-1.amazonaws.com/123-useragentoffline-testing-ppt-automation
     ports:
     - containerPort: 80
     command: ["/bin/sh", "-ec", "while :; do echo '.'; sleep 5 ; done"]
