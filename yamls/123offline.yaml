@@ -1,13 +1,13 @@
 apiVersion: v1
 kind: Pod
 metadata:
-  name:nginx
+  name:demok8apioffline
   labels:
-    app: nginx
+    app: demok8apioffline
 spec:
   containers:
-  - name: nginx
-    image: nginx
+  - name: demok8apioffline
+    image: demok8apioffline
     ports:
     - containerPort: 80
     command: ["/bin/sh", "-ec", "while :; do echo '.'; sleep 5 ; done"]
