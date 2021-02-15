@@ -8,7 +8,7 @@ spec:
   containers:
   - name: demok8apioffline
     image: 891349355538.dkr.ecr.ap-southeast-1.amazonaws.com/demok8apioffline
-  ports:
+    ports:
     - containerPort: 80
     command: ["/bin/sh", "-ec", "while :; do echo '.'; sleep 5 ; done"]
   nodeSelector:
