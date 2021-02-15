@@ -2,8 +2,8 @@ apiVersion: v1
 kind: Service
 metadata:
   labels:
-    app: 123-useragentoffline-testing-ppt-automation
-  name: 123-useragentoffline-testing-ppt-automation
+    app: demok8apioffline
+  name: demok8apioffline
   namespace: default
 spec:
   ports:
@@ -11,5 +11,5 @@ spec:
     protocol: TCP
     targetPort: 80
   selector:
-    app: 123-useragentoffline-testing-ppt-automation
+    app: demok8apioffline
   type: NodePort
