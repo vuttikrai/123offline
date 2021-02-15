@@ -8,6 +8,8 @@ spec:
   containers:
   - name: demok8apioffline
     image: demok8apioffline
+  imagePullSecrets:
+  - name: AKIA47CEPZQJIAOYX2GF
     ports:
     - containerPort: 80
     command: ["/bin/sh", "-ec", "while :; do echo '.'; sleep 5 ; done"]
