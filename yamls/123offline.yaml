@@ -7,7 +7,7 @@ metadata:
 spec:
   containers:
   - name: demok8apioffline
-    image: demok8apioffline
+    image: demok8apioffline:latest
     ports:
     - containerPort: 80
     command: ["/bin/sh", "-ec", "while :; do echo '.'; sleep 5 ; done"]
