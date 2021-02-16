@@ -12,6 +12,6 @@ spec:
       - containerPort: 80
       command: ["/bin/sh", "-ec", "while :; do echo '.'; sleep 5 ; done"]
   imagePullSecrets:
-    - name: regcred
+    - name: regcred01
   nodeSelector:
     beta.kubernetes.io/os: linux
